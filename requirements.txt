@@ -1,0 +1,12 @@
+numpy
+pandas
+nltk
+seaborn
+requests
+jupyter
+beautifulsoup4
+vaderSentiment 
+keybert 
+gensim 
+pyodbc 
+sqlalchemy
