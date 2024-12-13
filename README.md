@@ -21,7 +21,6 @@ Ce projet a pour objectif d’analyser le ressenti des spectateurs concernant le
 
 - Collecter et nettoyer les données des critiques et des notes IMDb.
 - Analyser les sentiments (émotions positives, neutres, négatives) dans les commentaires.
-- Identifier les thèmes récurrents (acteurs, scénario, effets visuels).
 - Présenter les résultats via des visualisations interactives.
 
 
@@ -48,29 +47,29 @@ Ce projet a pour objectif d’analyser le ressenti des spectateurs concernant le
 
 ## 🗂️ Étapes du projet
 
-1. **Planification** : Identification des outils et des données nécessaires.
-2. **Collecte des données** : Récupération des critiques IMDb.
-3. **Nettoyage des données** : Élimination des doublons et standardisation.
-4. **Analyse des sentiments** : Utilisation d’algorithmes NLP pour la classification.
-5. **Visualisation** : Présentation des résultats via des outils comme Matplotlib ou Tableau.
+1. **Collecte des données** : Récupération des critiques IMDb.
+2. **Nettoyage des données** : Élimination des doublons et standardisation.
+3. **Analyse des sentiments** : Utilisation d’algorithmes NLP pour la classification.
+4. **Visualisation** : Présentation des résultats via des outils comme Matplotlib ou Tableau.
 
 ---
 
 ## 🔧 Prérequis
 
+Les prérequis sont tous installés grace au fichier requirements, mais voici les principaux :
 - **Langages** : Python 3.9+
 - **Bibliothèques Python** :
-  - BeautifulSoup (pour le web scraping)
-  - Pandas (pour le traitement des données)
-  - NLTK ou TextBlob (pour l’analyse des sentiments)
-  - Matplotlib/Seaborn (pour les visualisations)
-- **Outils supplémentaires** : Power BI pour les tableaux de bord.
+  - BeautifulSoup (Web Scraping)
+  - Selenium (Scrapping)
+  - Pandas (Traitement des données)
+  - NLTK et TextBlob (pour l’analyse des sentiments)
+- **Outils supplémentaires** : Streamlit (Cloud et Visualisation).
 
 ---
 
 ## 🚀 Installation
 
-1. Clonez ce dépôt :
+1. Clonez le dépôt ou acceder au zip fournit :
    ```bash
    git clone https://github.com/brillant972/EFREI_M1_Datacamp.git
    ```
@@ -78,4 +77,9 @@ Ce projet a pour objectif d’analyser le ressenti des spectateurs concernant le
    ```bash
    pip install -r requirements.txt
    ```
+3. Lancement du script via Streamlit (dans votre CMD) :
+   ```bash
+   streamlit run imdb_sentiment_app.py
+   ```
+   
 
