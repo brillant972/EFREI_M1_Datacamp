@@ -50,7 +50,7 @@ Ce projet a pour objectif d’analyser le ressenti des spectateurs concernant le
 1. **Collecte des données** : Récupération des critiques IMDb.
 2. **Nettoyage des données** : Élimination des doublons et standardisation.
 3. **Analyse des sentiments** : Utilisation d’algorithmes NLP pour la classification.
-4. **Visualisation** : Présentation des résultats via des outils comme Matplotlib ou Tableau.
+4. **Visualisation** : Présentation des résultats (Dashboard et Graphiques).
 
 ---
 
