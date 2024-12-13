@@ -40,7 +40,7 @@ Ce projet a pour objectif d’analyser le ressenti des spectateurs concernant le
 
 3. **Visualisation des résultats**
 
-   - Graphiques interactifs (distribution des sentiments, mots-clés dominants).
+   - Graphiques interactifs (distribution des sentiments).
    - Tableau de bord synthétique.
 
 ---
